@@ -1,0 +1,94 @@
+#map-container {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+}
+
+/* pop-up pins */
+
+/* popup container */
+.mapboxgl-popup {
+  font-family:'Poppins', sans-serif;
+  font-size: 12px;
+  opacity: 95%;
+  transition: all 0.3s ease-in-out;
+  overflow-y: scroll;
+  max-height: 300px;
+  scroll-behavior: auto;
+}
+
+/* popup content */
+.mapboxgl-popup-content {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: none !important;
+  overflow-y: scroll;
+  max-height: 300px;
+  scroll-behavior: auto;
+}
+
+/* close button */
+.mapboxgl-popup-close-button {
+  font-size: 35px;
+  padding: 10px;
+  color: #555;
+}
+
+.mapboxgl-popup-close-button:hover {
+  color: #000;
+}
+
+/* popup tip (the little triangle) */
+.mapboxgl-popup-tip {
+  border-color: #f8f9fa transparent transparent;
+}
+
+/* searchbox */
+
+/* search container */
+.mapboxgl-ctrl-geocoder {
+  width: 350px;
+  display: flex;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #555;
+}
+
+.mapboxgl-ctrl-geocoder--icon {
+  margin: 1px;
+}
+
+/* search input text box */
+.mapboxgl-ctrl-geocoder--input {
+  background-color: #222;
+  color: #fff !important;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* suggestions dropdown */
+.mapboxgl-ctrl-geocoder .suggestions {
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* mag icon */
+.mapboxgl-ctrl-geocoder--button {
+  background: transparent;
+}
+
+.mapboxgl-ctrl-top-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mapboxgl-marker {
+  color: orange;
+}

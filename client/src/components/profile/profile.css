@@ -1,0 +1,12 @@
+.profileComp {
+
+    color: #172A3A;
+    font-size: 40px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.profileComp:hover {
+
+    color: #0F1E2A;
+}
